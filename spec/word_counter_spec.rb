@@ -1,3 +1,5 @@
+require_relative '../lib/word_counter'
+
 describe "word_counter" do
   it "count the word inside the dictionnary" do
     expect(word_counter("below", dictionary)).to eq({"below"=>1, "low"=>1})

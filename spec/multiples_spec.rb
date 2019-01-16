@@ -1,3 +1,5 @@
+require_relative '../lib/multiples'
+
 describe "is_multiple_of_3_or_5?" do
   it "should return TRUE when an integer is a multiple of 3 or 5" do
     expect(is_multiple_of_3_or_5?(3)).to eq(true)
