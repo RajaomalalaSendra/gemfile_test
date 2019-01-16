@@ -12,7 +12,7 @@ puts is_multiple_of_3_or_5?(3)
 puts is_multiple_of_3_or_5?(7)
 puts is_multiple_of_3_or_5?(11)
 # sum of all the number multiples by 3 or 5 
-def sum_of_3_or_5_multiples(n)
+def sum_of_3_and_5_multiples(n)
   sum = 0
   if n.is_a?(Integer) == true
     if n >= 0
@@ -29,9 +29,9 @@ def sum_of_3_or_5_multiples(n)
     return "Yo ! Je ne prends que les entiers naturels."
   end   
 end  
-puts sum_of_3_or_5_multiples(10)
-puts sum_of_3_or_5_multiples(11)
-puts sum_of_3_or_5_multiples(-1)
-puts sum_of_3_or_5_multiples(1.23)
-puts sum_of_3_or_5_multiples(3)
-puts sum_of_3_or_5_multiples(0)
+puts sum_of_3_and_5_multiples(10)
+puts sum_of_3_and_5_multiples(11)
+puts sum_of_3_and_5_multiples(-1)
+puts sum_of_3_and_5_multiples(1.23)
+puts sum_of_3_and_5_multiples(3)
+puts sum_of_3_and_5_multiples(0)
